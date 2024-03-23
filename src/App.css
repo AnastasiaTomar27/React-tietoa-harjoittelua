@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+* {
+  margin: 0;
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+padding: 2px;
+display: flex;
+align-items: center;
+max-width: 200px;
+box-sizing: border-box;
+background-color: #969696;
+text-align: left;
+letter-spacing: 0em;
+} 
+.navbar .lista{
+margin-left: auto;
+}
+.navbar li{
+display: inline;
+text-decoration: none;
+padding: 4px;
+font-size: 10px;
+}
+.logo {
+float: left;
+width: 16px;
+height: 14px;
+}
+.content {
+max-width: 200px;
+padding-left: 10px;
+list-style-image: url("./logo.svg");
+background-color: beige;
+box-sizing: border-box;
+font-size: 10px;
+}
+.sisalto_lista {
+padding: 5px 3px 30px 13px;
+}
+h1 {
+padding-top: 10px;
+font-size: 16px;
+line-height: 20.85px;
+} 
+
+.footer {
+display: block;
+font-size: 8px;
+line-height: 10.42px;
+}
+footer {
+background-color: aquamarine;
+max-width: 200px;
+box-sizing: border-box;
+padding: 7px 0;
+text-align: center;
+}
